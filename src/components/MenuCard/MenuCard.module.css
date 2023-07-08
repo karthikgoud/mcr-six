@@ -1,0 +1,27 @@
+.itemCardCont {
+  box-shadow: 3px 3px 3px gray;
+  width: 250px;
+  /* height: 350px; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+
+.itemCardCont img {
+  width: 100%;
+  height: 200px;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.itemInfo small {
+  opacity: 50%;
+}
